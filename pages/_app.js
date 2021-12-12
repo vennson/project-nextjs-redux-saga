@@ -2,6 +2,7 @@ import Router from 'next/router'
 import Head from 'next/head'
 import NProgress from 'nprogress'
 import { ChakraProvider } from '@chakra-ui/react'
+import { wrapper } from '../redux/store'
 
 import Layout from '../components/Layout'
 
@@ -25,4 +26,4 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default MyApp
+export default wrapper.withRedux(MyApp)
