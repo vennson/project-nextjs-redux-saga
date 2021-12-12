@@ -7,4 +7,4 @@ Third party API:
 [Bayut](https://rapidapi.com/apidojo/api/bayut/) by [Api Dojo](https://rapidapi.com/user/apidojo)
 
 Deployment:
-https://project-realestate.vercel.app/
+https://nextjs-reduxsaga.herokuapp.com/
